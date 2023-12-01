@@ -1,0 +1,10 @@
+.t-list li::before {
+    content: '';
+    position: absolute;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background: #54C2B6;
+    left: 0;
+    margin-top: 8px;
+}

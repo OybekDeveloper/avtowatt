@@ -1,0 +1,6 @@
+.textResponsive{
+    font-size: clamp(3vh, 2.5rem,3vw)!important;
+}
+.textResponsive2{
+    font-size: clamp(2vh, 1rem, 2vw)!important;
+}

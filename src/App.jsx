@@ -9,7 +9,7 @@ import Footer from "./components/footer/footer";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import './index.css'
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./navbar/navbar";
 
 
 function App() {

@@ -1,9 +1,7 @@
-import "./navbar.css";
-import { RiMenu3Fill } from "react-icons/ri";
-
-
+import { RiMenu3Fill } from "react-icons/ri"
+import './navbar.css'
 //eslint-disable-next-line
-const Navbar = ({setIsOpen , isOpen}) => {
+const Navbar = ({setIsOpen,isOpen}) => {
   return (
     <div className="navbar fixed  top-0 button-[100px] w-10/12 max-sm:w-full flex mx-auto justify-between items-center z-[1000] py-[20px]">
       <a  href="#header">
@@ -41,7 +39,7 @@ const Navbar = ({setIsOpen , isOpen}) => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

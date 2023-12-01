@@ -3,13 +3,13 @@ import Connects from "./components/connects/connects";
 import Company from "./components/company/company";
 import Everything from "./components/everything/everything";
 import Main from "./components/main/main";
-import Navbar from "./components/navbar/Navbar";
 import Possibilities from "./components/possibilities/possibilities";
 import Services from "./components/services/services";
 import Footer from "./components/footer/footer";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import './index.css'
+import Navbar from "./components/navbar/Navbar";
 
 
 function App() {
@@ -53,7 +53,7 @@ function App() {
        </div>
   )}
       <div className="container w-10/12 max-sm:w-full relative mx-auto ">
-        <Navbar  />
+        <Navbar setIsOpen={setIsOpen} isOpen={isOpen} />
         <div className="max-sm:px-4">
         <Main />
         <Possibilities />

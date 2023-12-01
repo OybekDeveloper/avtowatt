@@ -53,7 +53,7 @@ function App() {
        </div>
   )}
       <div className="container w-10/12 max-sm:w-full relative mx-auto ">
-        <Navbar setIsOpen={setIsOpen} isOpen={isOpen} />
+        <Navbar  />
         <div className="max-sm:px-4">
         <Main />
         <Possibilities />

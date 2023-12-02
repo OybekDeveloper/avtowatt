@@ -52,17 +52,15 @@ function App() {
          </div>
        </div>
   )}
-      <div className="container w-10/12 max-sm:w-full relative mx-auto ">
+      <div className="container w-10/12 max-sm:w-full relative mx-auto    ">
         <Navbar setIsOpen={setIsOpen} isOpen={isOpen} />
-        <div className="max-sm:px-4">
         <Main />
         <Possibilities />
         <Everything />
         <Company />
-        <Services />
+      <Services />
         <Connects />
         <Footer />
-        </div>
       </div>
     </div>
   );

@@ -25,7 +25,7 @@ body{
   /* background-color: var(--bg-color);
   color: var(--highlight-color); */
   font-family: 'Nunito Sans';
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .slide-in {

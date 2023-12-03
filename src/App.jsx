@@ -58,12 +58,12 @@ function App() {
         <Main />
         {/* <Test />   */}
 
-        <Possibilities />
+        {/* <Possibilities /> */}
         {/* <Everything /> */}
-       {/* <Company /> */}
-      {/* <Services /> */}
-        {/* <Connects /> */}
-        {/* <Footer />  */}
+       <Company />
+      <Services />
+        <Connects />
+        <Footer /> 
       </div>
     </div>
   );

@@ -51,8 +51,8 @@ const  Everything = () => {
           alt=""
         /> */}
         <motion.img
-          transition={{type:'spring',bounce:0.4 , duration:0.7, delay: 0.8 }}
-          viewport={{ once: true,amount:0.4 }}
+          transition={{type:'spring', duration:1.5, delay: 0.4 }}
+          viewport={{ once: true}}
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           src={Images.img3}

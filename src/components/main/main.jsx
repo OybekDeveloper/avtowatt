@@ -40,7 +40,7 @@ const Main = () => {
           />
         </div>
       </div>
-      <div className="w-1/2 max-md:w-full max-md:top-10 flex justify-center items-center relative max-md:hidden">
+      <div className="w-1/2 max-md:w-full max-md:top-10 flex justify-center items-center relative">
         <motion.img
           transition={{ duration: 0.5, delay: 0.6 }}
           variants={Variants}

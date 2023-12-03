@@ -58,7 +58,7 @@ function App() {
         <Main />
         {/* <Test />   */}
 
-        {/* <Possibilities /> */}
+        <Possibilities />
         {/* <Everything /> */}
        {/* <Company /> */}
       {/* <Services /> */}

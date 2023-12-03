@@ -16,8 +16,8 @@ const Main = () => {
     },
   };
 
-  return (
-    <div id={"header"} className="flex pt-[200px] max-md:pt-[100px] max-md:flex-col max-xl:items-center justify-between h-screen">
+  return ( 
+    <div id={"header"} className=" w-11/12 mx-auto flex pt-[100px] max-md:flex-col max-xl:items-center justify-between h-screen">
       <div className="flex flex-col w-1/2 max-md:w-full items-start max-md:items-center justify-center max-md:mx-auto">
         <p className="textResponsive text-4xl py-[20px]">
           ZorDoc — медицинский сервис записи

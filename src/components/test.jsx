@@ -1,7 +1,6 @@
-import Images from "../img/images";
+import Images from "../components/img/images";
 import { motion } from "framer-motion";
-const Possibilities = () => {
-  const Variants1 = {
+const Variants1 = {
     offscreen: {
         x: -80,
         opacity: 0,
@@ -31,13 +30,13 @@ const Variants2 = {
         }
     }
 };
-  return (
-    <div
-      id={"possibilities"}
-      className="pt-[100px] container"
-    >
-      <h1 className="text-4xl font-bold text-center">Возможности</h1>
-      <div className="container w-10/12 mx-auto flex flex-col">
+const Test = () => {
+    return (
+        <>
+             <h1 className="text-4xl font-bold text-center">Возможности</h1>
+
+                <div className="container w-10/12 mx-auto flex flex-col">
+
                     <div className="max-sm:w-full sm:w-3/4 md:w-2/3 pt-20 ">
                         <p className="lg:text-3xl md:text-2xl max-sm:text-3xl text-green-400 p-5 text-right">
                             Всегда под рукой
@@ -145,8 +144,8 @@ const Variants2 = {
                     </div>
                 
                 </div>
-          </div>
-  );
-};
+        </>
+    )
+}
 
-export default Possibilities;
+export default Test

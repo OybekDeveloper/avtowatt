@@ -2,7 +2,7 @@ import Images from "../img/images"
 
 const Footer = () => {
   return (
-    <div className="flex max-lg:flex-col justify-between max-lg:justify-center  items-end max-lg:items-start pt-[50px] pb-[50px] container">
+    <div className="flex max-sm:w-11/12 max-sm:mx-auto max-lg:flex-col justify-between max-lg:justify-center  items-end max-lg:items-start pt-[50px] pb-[50px] container">
       <div className="image-container flex flex-col gap-8 pb-[20px]"> 
         <img  className="w-[200px] "src="https://zordoc.uz/img/footer-logo.svg" alt="" />
         <p className="text-xl">

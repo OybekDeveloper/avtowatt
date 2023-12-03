@@ -22,7 +22,7 @@ const Connects = () => {
     console.log('Form submitted:', formData);
   };
   return (
-    <div id="connect" className="flex  flex-row justify-between">
+    <div id="connect" className=" max-sm:w-11/12 max-sm:mx-auto flex  flex-row justify-between">
       <div>
         <div>
           <h1 className="text-4xl">Скачать приложение</h1>

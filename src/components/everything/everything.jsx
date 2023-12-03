@@ -1,9 +1,9 @@
 import Images from "..//img/images";
 import { motion } from "framer-motion";
 import './everything.css'
-const Everything = () => {
+const  Everything = () => {
   return (
-    <div id="everything" className="pt-[100px] flex  justify-between">
+    <div id="everything" className="pt-[100px] flex justify-between max-sm:w-10/12 mx-auto">
       <div className="img flex flex-row  items-start max-sm:hidden ">
         <motion.img
           transition={{type: "spring",bounce:0.2, duration: 0.5,}}
@@ -41,15 +41,15 @@ const Everything = () => {
           </li>
         </ul>
         <div className="flex justify-center items-center ">
-        <motion.img
+        {/* <motion.img
           transition={{type:'spring',bounce:.4, duration:0.8 , delay:0.8}}
           initial={{ y: 200, opacity: 0 }}
           viewport={{ once: true,amount:.4}}
           animate={{ y: 0, opacity: 1 }}
-          className="  max-sm:w-[200px] max-sm:right-0  max-sm:block hidden"
+          className="  max-sm:w-[180px] max-sm:block hidden"
           src={Images.img2}
           alt=""
-        />
+        /> */}
         <motion.img
           transition={{type:'spring',bounce:0.4 , duration:0.7, delay: 0.8 }}
           viewport={{ once: true,amount:0.4 }}
@@ -57,7 +57,7 @@ const Everything = () => {
           whileInView={{ x: 0, opacity: 1 }}
           src={Images.img3}
           alt=""
-          className="max-sm:w-[200px] max-sm:left-0 " 
+          className="max-sm:w-full max-sm:left-0 " 
         />
         
         </div>

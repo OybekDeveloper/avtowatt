@@ -3,7 +3,7 @@ import './navbar.css'
 //eslint-disable-next-line
 const Navbar = ({setIsOpen,isOpen}) => {
   return (
-    <div className="navbar fixed top-0 button-[100px] w-10/12 max-sm:w-full flex mx-auto justify-between items-center z-[1000] py-[20px]">
+    <div className="navbar fixed top-0 button-[100px] w-10/12  max-sm:w-full flex mx-auto justify-between items-center z-[1000] py-[20px]">
       <a  href="#header">
         <div className="flex justify-center items-center">
           <img

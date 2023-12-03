@@ -10,6 +10,7 @@ import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import './index.css'
 import Navbar from "./navbar/navbar";
+// import Test from './components/test'
 
 
 function App() {
@@ -55,12 +56,14 @@ function App() {
       <div className="container w-10/12 max-sm:w-full relative mx-auto    ">
         <Navbar setIsOpen={setIsOpen} isOpen={isOpen} />
         <Main />
+        {/* <Test />   */}
+
         <Possibilities />
         <Everything />
-        <Company />
+       <Company />
       <Services />
         <Connects />
-        <Footer />
+        <Footer /> 
       </div>
     </div>
   );

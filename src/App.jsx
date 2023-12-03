@@ -9,7 +9,7 @@ import Footer from "./components/footer/footer";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import './index.css'
-import Navbar from "./navbar/navbar";
+// import Navbar from "./navbar/navbar";
 // import Test from './components/test'
 
 
@@ -54,7 +54,7 @@ function App() {
        </div>
   )}
       <div className="container w-10/12 max-sm:w-full relative mx-auto    ">
-        <Navbar setIsOpen={setIsOpen} isOpen={isOpen} />
+        {/* <Navbar setIsOpen={setIsOpen} isOpen={isOpen} /> */}
         <Main />
         {/* <Test />   */}
 

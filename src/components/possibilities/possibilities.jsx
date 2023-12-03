@@ -34,7 +34,7 @@ const Variants2 = {
   return (
     <div
       id={"possibilities"}
-      className="pt-[100px] container"
+      className="pt-[100px] max-md:pt-[300px] max-sm:pt-[200px] container"
     >
       <h1 className="text-4xl font-bold text-center">Возможности</h1>
       <div className="container w-10/12 mx-auto flex flex-col">

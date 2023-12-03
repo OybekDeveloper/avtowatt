@@ -50,7 +50,7 @@ const  Everything = () => {
           src={Images.img2}
           alt=""
         /> */}
-        {/* <motion.img
+        <motion.img
           transition={{type:'spring', duration:1.5, delay: 0.4 }}
           viewport={{ once: true}}
           initial={{ x: 100, opacity: 0 }}
@@ -58,7 +58,7 @@ const  Everything = () => {
           src={Images.img3}
           alt=""
           className="max-sm:w-full max-sm:left-0 " 
-        /> */}
+        />
         
         </div>
         

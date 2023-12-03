@@ -55,7 +55,7 @@ function App() {
   )}
       <div className="container w-10/12 max-sm:w-full relative mx-auto    ">
         <Navbar setIsOpen={setIsOpen} isOpen={isOpen} />
-        {/* <Main /> */}
+        <Main />
         {/* <Test />   */}
 
         {/* <Possibilities /> */}

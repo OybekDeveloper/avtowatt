@@ -46,6 +46,7 @@ const Connects = () => {
             <form onSubmit={handleSubmit} >
               <label htmlFor="surname">Surname:</label>
               <input
+                className="px-2"
                 type="text"
                 id="surname"
                 name="surname"
@@ -56,6 +57,7 @@ const Connects = () => {
 
               <label htmlFor="phoneNumber">Phone Number:</label>
               <input
+              className="px-2"
                 type="tel"
                 id="phoneNumber"
                 name="phoneNumber"

@@ -1,7 +1,7 @@
 import { RiMenu3Fill } from "react-icons/ri"
 import './navbar.css'
 //eslint-disable-next-line
-const Navbar = ({setIsOpen,isOpen}) => {
+const Navbar = ({handleItemClick}) => {
   return (
     <div className="navbar fixed top-0 button-[100px] w-10/12  max-sm:w-full flex mx-auto justify-between items-center z-[1000] py-[20px]">
       <a  href="#header">
@@ -16,7 +16,7 @@ const Navbar = ({setIsOpen,isOpen}) => {
       </a>
       <div className="flex justify-center items-center ">
         <div className="max-sm:pr-0 pr-[20px] lg:hidden block">
-        <RiMenu3Fill onClick={()=>setIsOpen(!isOpen)}  size={40}/>
+        <RiMenu3Fill onClick={handleItemClick}  size={40}/>
         </div>
         <ul className=" flex max-lg:hidden top-0 justify-center items-center gap-8 text-[16px] font-medium">
           <li className="hover:text-blue-500 hover:scale-105 transition-all">

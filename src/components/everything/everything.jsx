@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import './everything.css'
 const  Everything = () => {
   return (
-    <div id="everything" className="pt-[100px] flex justify-between max-sm:w-10/12 mx-auto">
+    <div id="everything" className="pt-[100px] flex justify-between max-sm:w-10/12 mx-auto overflow-hidden">
       <div className="img flex flex-row  items-start max-sm:hidden ">
         <motion.img
           transition={{type: "spring",bounce:0.2, duration: 0.5,}}
